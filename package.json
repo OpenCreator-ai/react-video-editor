@@ -4,12 +4,12 @@
   "version": "0.0.72",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "server": "tsx server.ts",
-    "server:dev": "tsx watch server.ts"
+    "dev": "cd frontend && vite",
+  "build": "cd frontend && tsc -b && vite build",
+  "lint": "eslint .",
+  "preview": "cd frontend && vite preview",
+  "server": "cd backend && tsx server.ts",
+  "server:dev": "cd backend && tsx watch server.ts"
   },
   "dependencies": {
     "@designcombo/events": "^1.0.2",

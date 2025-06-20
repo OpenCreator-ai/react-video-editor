@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "cd frontend && vite",
-  "build": "cd frontend && tsc -b && vite build",
-  "lint": "eslint .",
-  "preview": "cd frontend && vite preview",
-  "server": "cd backend && tsx server.ts",
-  "server:dev": "cd backend && tsx watch server.ts"
+    "build": "cd frontend && tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "cd frontend && vite preview",
+    "server": "cd backend && tsx server.ts",
+    "server:dev": "cd backend && tsx watch server.ts"
   },
   "dependencies": {
     "@designcombo/events": "^1.0.2",
@@ -34,6 +34,7 @@
     "@radix-ui/react-select": "^2.1.5",
     "@radix-ui/react-slider": "^1.2.0",
     "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-switch": "^1.2.5",
     "@radix-ui/react-tabs": "^1.1.0",
     "@radix-ui/react-toggle": "^1.1.0",
     "@radix-ui/react-toggle-group": "^1.1.0",
